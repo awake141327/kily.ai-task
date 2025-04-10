@@ -71,6 +71,91 @@ const defaultData = [
     field9: "Field9",
     field10: "Field10",
   },
+  {
+    name: "Encore",
+    email: "encore@gmail.com",
+    field1: "Field1",
+    field2: "Field2",
+    field3: "Field3",
+    field4: "Field4",
+    field5: "Field5",
+    field6: "Field6",
+    field7: "Field7",
+    field8: "Field8",
+    field9: "Field9",
+    field10: "Field10",
+  },
+  {
+    name: "Calm",
+    email: "calm@gmail.com",
+    field1: "Field1",
+    field2: "Field2",
+    field3: "Field3",
+    field4: "Field4",
+    field5: "Field5",
+    field6: "Field6",
+    field7: "Field7",
+    field8: "Field8",
+    field9: "Field9",
+    field10: "Field10",
+  },
+  {
+    name: "Ashutosh",
+    email: "ashutosh@gmail.com",
+    field1: "Field1",
+    field2: "Field2",
+    field3: "Field3",
+    field4: "Field4",
+    field5: "Field5",
+    field6: "Field6",
+    field7: "Field7",
+    field8: "Field8",
+    field9: "Field9",
+    field10: "Field10",
+  },
+  {
+    name: "Rajat",
+    email: "rajat@gmail.com",
+    field1: "Field1",
+    field2: "Field2",
+    field3: "Field3",
+    field4: "Field4",
+    field5: "Field5",
+    field6: "Field6",
+    field7: "Field7",
+    field8: "Field8",
+    field9: "Field9",
+    field10: "Field10",
+  },
+
+  {
+    name: "Akash",
+    email: "Akash@gmail.com",
+    field1: "Field1",
+    field2: "Field2",
+    field3: "Field3",
+    field4: "Field4",
+    field5: "Field5",
+    field6: "Field6",
+    field7: "Field7",
+    field8: "Field8",
+    field9: "Field9",
+    field10: "Field10",
+  },
+  {
+    name: "Kamal",
+    email: "Kamal@gmail.com",
+    field1: "Field1",
+    field2: "Field2",
+    field3: "Field3",
+    field4: "Field4",
+    field5: "Field5",
+    field6: "Field6",
+    field7: "Field7",
+    field8: "Field8",
+    field9: "Field9",
+    field10: "Field10",
+  },
 ];
 
 const columns = [
@@ -158,7 +243,7 @@ export default function ResizableTable() {
 
   return (
     <div className="h-screen flex items-center mx-40">
-      <div className="w-[800px] max-md:w-[400px] overflow-auto border rounded-md">
+      <div className="w-[800px] h-[300px] max-md:w-[400px] overflow-auto border rounded-md">
         <Table className="min-w-[2000px] max-md:min-w-[500px] select-none">
           <TableHeader>
             {table.getHeaderGroups().map((headerGroup) => (
